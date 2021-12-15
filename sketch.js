@@ -72,6 +72,16 @@ function draw() {
   text("(Press the Key to select the decimals you want)",width/20,25*height/26)
   
   pop();
+  
+  push();
+  stroke(255)
+  strokeWeight(0.01)
+  fill(255)
+  stroke(255)
+  textFont(fontRegular0);
+  textSize(min(width/40,35*height/40))
+  text('IF NOT MOVING, PRESS "Fn + F5" THX',width/20,11*height/24)
+  pop();
   if(back == 0){
   background(17,2.5);
   }
