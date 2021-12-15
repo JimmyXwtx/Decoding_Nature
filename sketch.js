@@ -47,10 +47,10 @@ function setup() {
 
 function draw() {
   
-  if (fresh < 100000 ){
+  if (fresh < 1000 ){
     fresh = fresh + 1;
   }
-  if (fresh >= 100000){
+  if (fresh >= 1000){
     fresh = 0;
     graphnumber = random(0,9)
         if (graphnumber == 0) {
