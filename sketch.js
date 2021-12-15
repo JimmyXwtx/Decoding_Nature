@@ -47,40 +47,7 @@ function setup() {
 
 function draw() {
   
-  if (fresh < 100 ){
-    fresh = fresh + 1;
-  }
-  if (fresh >= 100){
-    fresh = 0;
-    graphnumber = random(0,9)
-        if (graphnumber == 0) {
-      C.hello(width / 2-width/15, height / 4, min(width/15,height/15),0,0);
-    }
-    if (graphnumber == 1) {
-      C.hello(width / 3+width/12, 3*height / 4, min(width/18,height/18),0,0);
-    }
-    if (graphnumber == 2) {
-      C.hello(width / 3+ width/9, 3*height / 4, min(width/10,height/10),0,0);
-    }
-      if (graphnumber == 3) {
-      C.hello(width / 3+ width/5, height /3, min(width/10,height/10),0,0);
-    }
-    if (graphnumber == 4) {
-    C.hello(width /2-width/6, height/2, min(width/2,height/2),0,0);
-    }
-      if (graphnumber == 5) {
-   C.hello(5*width /16, 8*height /12, min(width/50,height/50),0,0);
-    }
-      if (graphnumber == 6) {
-    C.hello(8*width /16, 8*height /12, min(width/25,height/25),0,0);
-    }
-        if (graphnumber == 7) {
-    C.hello(5*width /16, 5*height /12, min(width/20,height/20),0,0);
-    }
-          if (graphnumber == 8) {
-    C.hello(7*width /16, 4*height /12, min(width/6,height/6),0,0);
-    }
-  }
+
   
   frameRate(frame);
   console.log(back)
